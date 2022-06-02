@@ -18,8 +18,10 @@ public class FillQuantity {
 
     public static void main(String[] args) {
         FillQuantity fillQuantity = new FillQuantity();
-
-        fillQuantity.filledQuantityCalculation( 55, );
+        
+        FillingFuel fillingFuel = new FillingFuel();
+        FuelTypes fuelType = new FuelTypes();
+        fillQuantity.filledQuantityCalculation( fillingFuel, fuelType);
     }
 
 }
