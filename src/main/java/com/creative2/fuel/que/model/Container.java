@@ -5,7 +5,8 @@ public class Container {
     private int noOfLiters;
     private String arrivalDate;
     private String arrivalTime;
-    private int quantity;
+    private FuelType fuelType;
+
 
     public int getNoOfLiters() {
         return noOfLiters;
@@ -31,11 +32,11 @@ public class Container {
         this.arrivalTime = arrivalTime;
     }
 
-    public int getQuantity() {
-        return quantity;
+    public FuelType getFuelTypes() {
+        return fuelType;
     }
 
-    public void setQuantity(int quantity) {
-        this.quantity = quantity;
+    public void setFuelTypes(FuelType fuelType) {
+        this.fuelType = fuelType;
     }
 }

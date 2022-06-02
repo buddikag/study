@@ -2,6 +2,8 @@ package com.creative2.fuel.que.model;
 
 public class Station {
 
+    //Manage filling station data
+
     private int id;
     private String name;
     private String city;

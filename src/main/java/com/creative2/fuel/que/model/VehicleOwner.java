@@ -2,6 +2,8 @@ package com.creative2.fuel.que.model;
 
 public class VehicleOwner {
 
+    //Vehicle owner data
+
     private int id;
     private int mobileNumber;
     private String nearestFillingStation;

@@ -1,10 +1,12 @@
 package com.creative2.fuel.que.model;
 
-public class FuelTypes {
+public class FuelType {
+
+    //Handel fuel type(petrol/diesel) per ltr price
 
     private int id;
     private String fuelType;
-    private int perLtrPrice;
+    private float perLtrPrice;
 
     public int getId() {
         return id;
@@ -22,7 +24,7 @@ public class FuelTypes {
         this.fuelType = fuelType;
     }
 
-    public int getPerLtrPrice() {
+    public float getPerLtrPrice() {
         return perLtrPrice;
     }
 
